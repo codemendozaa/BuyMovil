@@ -10,7 +10,7 @@ class ReviewList extends StatelessWidget{
 
       children: <Widget>[
 
-        Review("assents/img/erix.jpg", "Erix Javier","1 review . 5 fotos","esta genial"),
+        Review("assents/img/erix.jpg", "Erix Javier","1 review . 5 fotos","Con este celular es muy util para @maryury catleya"),
         Review("assents/img/angy.jpg", "Angelica Arias","13review . 8 fotos","recomendado!!!.."),
         Review("assents/img/andres.jpg", "Andres Gonzalez","2 review . 6 fotos","tengo dos es muy util...")
 

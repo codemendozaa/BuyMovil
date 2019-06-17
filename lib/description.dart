@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:mapsbank_app/button.dart';
 
 class Description extends StatelessWidget{
 
@@ -125,9 +125,11 @@ margin: new EdgeInsets.only(
 
 
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         title_star,
-        feature
+        feature,
+        Button("Navegar")
       ],
 
     );
